@@ -11,8 +11,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class Hotel {
 
-	
-	
 		private String hotelId;
 		private String name;
 		private String location;

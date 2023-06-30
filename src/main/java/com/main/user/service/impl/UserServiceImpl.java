@@ -25,8 +25,7 @@ public class UserServiceImpl implements UserService {
 
 	@Autowired 
 	private UserRepository userrepository;
-	
-	@Autowired 
+	@Autowired
 	private RestTemplate restTemplate;
 	
 	private Logger logger= LoggerFactory.getLogger(UserServiceImpl.class);

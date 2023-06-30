@@ -16,7 +16,6 @@ import lombok.Setter;
 @Setter
 @Getter
 public class User {
-   
 	@Id
 	@Column(name = "ID")
 	private String userId;

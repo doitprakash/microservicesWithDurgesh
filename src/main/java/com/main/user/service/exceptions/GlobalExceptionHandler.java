@@ -9,7 +9,6 @@ import com.main.user.service.payload.ApiResponse;
 
 @RestControllerAdvice //Will handle exception wherever it happens globally
 public class GlobalExceptionHandler {
-     
 	@ExceptionHandler(ResourceNotFoundException.class)
 	public ResponseEntity<ApiResponse>handlerResourceNotFound(ResourceNotFoundException resourceNotFoundException){
 		
